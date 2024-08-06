@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-backgroundColor text-white rounded-t-3xl mt-8 md:mt-0">
       <div className="flex flex-col md:flex-row gap-5 lg:px-20 px-8 py-10 text-sm">
-        <div className="w-1/4 flex flex-col">
+        <div className=" w-full md:w-1/4 flex flex-col">
           <h1 className="font-semibold text-xl py-4 md:pt-0">Hospital.</h1>
           <p>
             Our team of dedicated doctors, each specializing in unique fields
@@ -15,7 +15,7 @@ const Footer = () => {
             and more.
           </p>
         </div>
-        <div className="w-full md:w-1/4 flex flex-col ml-36">
+        <div className="w-full md:w-1/4 flex flex-col lg:ml-36">
           <h1 className="font-semibold text-xl py-4 md:pt-0">About Us</h1>
           <nav className="flex flex-col gap-2">
             <Link
@@ -123,7 +123,7 @@ const Footer = () => {
       </div>
       <div>
         <p className=" text-center py-8 border-t border-backgroundColor2">
-          Made with <span className="text-xl text-red-500">❤</span> by{" "}
+          Made with <span className="text-lg text-red-500">❤</span> by{" "}
           <a
             href="https://portfolio-by-pamansaf.vercel.app/"
             target="_blank"

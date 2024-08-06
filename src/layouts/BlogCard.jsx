@@ -6,7 +6,7 @@ const BlogCard = ({ img, headlines }) => {
       <img
         src={img}
         alt="img"
-        className="h-64 md:h-96 lg:h-40 w-full rounded-lg"
+        className="h-52 md:h-96 lg:h-40 w-full rounded-lg"
       />
       <h2 className="text-lg font-semibold">{headlines}</h2>
       <p className="text-sm">

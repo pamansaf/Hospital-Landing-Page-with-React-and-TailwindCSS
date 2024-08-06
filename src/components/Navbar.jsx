@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed top-0 z-10 text-white">
+    <div className="w-full fixed top-0 left-0 z-10 text-white">
       <div>
         <div className=" flex flex-row justify-between p-4 md:px-20 px-5 bg-backgroundColor shadow-[rgba(0,_0,_0,0.24)_0px_3px_8px)">
           <div className="flex flex-row items-center cursor-pointer">
@@ -171,7 +171,7 @@ const Navbar = () => {
           <div className="lg:hidden">
             <Button title="Contact Us" onClick={openForm} />
           </div>
-          <div className="flex justify-center w-[70%] mx-auto items-center gap-2 py-3 px-3 bg-teal-100 rounded-md">
+          <div className="flex justify-center w-[70%] mx-auto items-center gap-2 py-4 px-3 bg-teal-100 rounded-md">
             <FaSearch className="text-2xl text-backgroundColor" />
             <input
               type="search"
