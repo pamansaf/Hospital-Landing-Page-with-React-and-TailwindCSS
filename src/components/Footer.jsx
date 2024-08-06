@@ -91,7 +91,7 @@ const Footer = () => {
               Kota Bireuen, Aceh, Indonesia.
             </a>
             <a
-              href="https://github.com/pamansaf"
+              href="https://github.com/pamansaf?tab=repositories"
               target="_blank"
               className="flex items-center gap-3 hover:text-hoverColor transition-all cursor-pointer"
             >
@@ -124,8 +124,14 @@ const Footer = () => {
       <div>
         <p className=" text-center py-8 border-t border-backgroundColor2">
           Made with <span className="text-xl text-red-500">❤</span> by{" "}
-          <span className="text-red-500 font-bold">pamansaf</span> | © 2024. All
-          rights reserved.
+          <a
+            href="https://portfolio-by-pamansaf.vercel.app/"
+            target="_blank"
+            className="text-red-500 font-bold hover:underline"
+          >
+            pamansaf
+          </a>{" "}
+          | © 2024. All rights reserved.
         </p>
       </div>
     </div>
